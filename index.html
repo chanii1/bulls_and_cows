@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🐮🐃 Bulls and Cows Game 🐮🐃</h1>
+        <p>Welcome to the Bulls and Cows game! Try to guess the positive 4-digit number. You have 9 tries to find the correct combination of numbers. A "bull" means you have guessed a correct digit in the correct position, and a "cow" means you have guessed a correct digit, but in the wrong position. Good luck!</p>
+
+        
+    <button class="btnStart">Start Game</button><br>
+
+    <div class="stars"></div><br>
+
+    <label for="code" >Enter the number
+        <input type="number" id="code" disabled>
+    </label>
+    <button id="goBtn" disabled>Go</button>
+    <div class="error"></div>
+    <div class="tries"></div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

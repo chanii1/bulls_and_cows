@@ -1,0 +1,112 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #f7f7f7;
+    margin: 0;
+    height: 100vh;
+    background: url('../cows.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: rgb(165, 105, 79);
+    width: 50%;
+}
+
+.btnStart {
+    background-color: yellow; /* Blue color */
+    color: #fff;
+    /* color: black; */
+    margin-bottom: 30px;
+        font-size: 17px;
+        padding: 15px 35px;
+        border-radius: 5px;
+        outline: 2px solid #2835ba;
+        outline-offset: 0px;
+        border: 0;
+        font-weight: bolder;
+        transition: all .1s ease-in-out;
+        cursor: pointer;
+      }
+
+
+.stars {
+    font-size: 35px;
+    font-weight: bold;
+    color: black; 
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+#code {
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}
+
+#goBtn {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: red;
+    font-weight: 600;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.tries {
+    margin-top: 30px;
+    font-size: 20px;
+    color: black; /* Dark Gray color */
+    text-align: center;
+}
+
+.containerDiv {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.newDiv {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c; /* Red color */
+    padding: 10px;
+    background-color: #ecf0f1; /* Light Gray color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.errorAfter, .loseAfter {
+    border: red 3px solid;
+    color: red;
+    background-color: white;
+}
+.loseAfter{
+    font-size: 2rem;
+}
+.winAfter {
+    border: green 3px solid;
+    color: green;
+    background-color: white;
+    font-size: 2rem;
+}
+
+
+.hide{
+    display: none;
+}
